@@ -1,0 +1,12 @@
+version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - PORT=3000
+    restart: unless-stopped
+    # Mount source as read-only for local testing; remove in prod
+    volumes:
+      - ./:/app:ro

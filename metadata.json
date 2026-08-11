@@ -1,0 +1,6 @@
+{
+  "name": "Wisdom Nursery and Primary School",
+  "description": "Official portal for Wisdom Nursery and Primary School, Essur - Learn Today, Lead Tomorrow. Features student/parent portal, online UPI fee payment, admission application, AI school assistant, circulars, exam marks & attendance tracker.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
