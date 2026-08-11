@@ -1,0 +1,10 @@
+[build]
+  image = ""
+
+[env]
+  PORT = "3000"
+
+# Replace the app name via the GitHub secret FLY_APP_NAME used by CI
+app = "wisdom-school"
+kill_signal = "SIGINT"
+kill_timeout = 5
